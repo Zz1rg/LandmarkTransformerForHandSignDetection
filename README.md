@@ -9,7 +9,7 @@ Download Link: https://drive.google.com/file/d/1wGmuOAsRvzBy6YG6XhfGkvtX5WnzfUsS
 ## Project Structure
 
 - `dataset/`: Data storage (processed and augmented)
-  - `images/`: Hand sign images
+  - `images/`: Hand sign images (this directory is hidden and needs to be downloaded from the link)
   - `labels.csv`: A csv that stores the images' name with their labels
   - `labels_with_landmarks.parquet`: A csv that stores the images' name with their labels and extracted MediaPipe landmarks
 - `checkpoints/`: Models' weights and their training history
